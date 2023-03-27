@@ -1,0 +1,90 @@
+/* Reset all default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(83, 83, 83);
+  }
+  
+  /* Set font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center align the heading */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  /* Style the form */
+  label {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Style the form input fields and labels */
+   label, form input[type="text"] {
+    margin: 10px 0;
+    width: 100%;
+    color: white;
+  }
+  
+   input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* Style the button */
+   button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Style the result container */
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 10px;
+  }
+  
+  #result, #result1, #result2 {
+    margin: 10px;
+    color: rgb(141, 235, 0);
+    font-size: 2em;
+  }

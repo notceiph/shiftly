@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relative Minor/Major Key Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Relative Minor/Major Key Converter</h1>
+    <label for="key-input">Key:</label>
+    <input type="text" id="key-input" />
+    <label for="scale-input">Scale:</label>
+    <input type="text" id="scale-input" />
+    <button id="calculate-btn">Calculate</button>
+    <div id="result"></div>
+
+    <h1>Flat to Sharp Converter</h1>
+    <h5>The above form does not handle flats correctly, please convert if you don't already know the conversions e.g. Db = C#</H5>
+    <label for="flatInput">Enter a flat key:</label>
+    <input type="text" id="flatInput" />
+    <button onclick="convertFlatToSharp()">Convert</button>
+    <div id="result1"></div>
+
+    <div>
+      <label>Old BPM:</label>
+      <input type="text" id="oldBPM" />
+    </div>
+    <div>
+      <label>New BPM:</label>
+      <input type="text" id="newBPM" />
+    </div>
+    <div>
+      <button onclick="calculateBPM()">Calculate</button>
+    </div>
+    <div>
+      <span id="result2"></span>
+    </div>
+    <script src="script2.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
