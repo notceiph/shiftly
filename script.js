@@ -3,7 +3,7 @@ const calculateRelative = () => {
   const scale = document.getElementById("scale-input").value.toLowerCase();
 
   const scales = {
-    major: ["C", "G", "D", "A", "E", "B", "F#", "DB", "AB", "EB", "BB", "F"],
+    major: ["C", "G", "D", "A", "E", "B", "F#", "Db", "Ab", "Eb", "Bb", "F"],
     minor: ["A", "E", "B", "F#", "C#", "G#", "D#", "F", "C", "G", "D", "A"],
   };
 
